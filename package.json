@@ -1,0 +1,24 @@
+{
+  "name": "kilrogg",
+  "main": "./lib/kilrogg",
+  "version": "0.0.0",
+  "description": "Code server for Atom",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "kilrogg:toggle"
+  },
+  "repository": "https://github.com/atom/kilrogg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^13.0.2"
+  }
+}

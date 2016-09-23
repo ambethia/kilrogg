@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-standard",
+  "globals": {
+    "atom": "true"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
