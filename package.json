@@ -16,6 +16,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "express": "^4.14.0",
+    "loophole": "^1.1.0",
     "server-destroy": "^1.0.1"
   },
   "devDependencies": {
@@ -28,7 +30,7 @@
   "consumedServices": {
     "autoreload": {
       "versions": {
-        "^0.0.3": "consumeAutoReload"
+        "^0.0.1": "consumeAutoreload"
       }
     }
   }
