@@ -1,3 +1,3 @@
 # Kilrogg
 
-Code server for Atom.
+A code server for Atom.
