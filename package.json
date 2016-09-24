@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "kilrogg:toggle"
   },
-  "repository": "https://github.com/atom/kilrogg",
+  "repository": "https://github.com/ambethia/kilrogg",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -20,5 +20,12 @@
   },
   "devDependencies": {
     "stylelint-config-standard": "^13.0.2"
+  },
+  "consumedServices": {
+    "autoreload": {
+      "versions": {
+        "^0.0.3": "consumeAutoreload"
+      }
+    }
   }
 }
